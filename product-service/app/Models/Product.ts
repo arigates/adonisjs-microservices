@@ -1,7 +1,7 @@
 import { DateTime } from 'luxon'
 import { BaseModel, beforeCreate, column } from '@ioc:Adonis/Lucid/Orm'
 import { v4 as uuidv4 } from 'uuid';
-import ProductStatus from 'contracts/enums/ProductStatus'
+// import ProductStatus from 'contracts/enums/ProductStatus'
 
 export default class Product extends BaseModel {
 
